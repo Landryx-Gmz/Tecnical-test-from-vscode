@@ -1,0 +1,1 @@
+var articulos = ["balon", "botas", "camiseta", "pantalon"]; 

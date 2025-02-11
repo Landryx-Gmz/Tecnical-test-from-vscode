@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de página con JavaScrip externo</title>
+
+    <script src="/script.js">
+
+    </script>
+</head>
+<body>
+    <script> 
+        document.write("<p>El primer articulo es < strong > "+articulos[0]+"</strong ></p > "); 
+        document.write("<P>La longitud del array es " + articulos.length + "</p>"); document.write("<p>El último articulo es <strong>" + articulos[articulos.length - 1] + "</strong></p>"); articulos.unshift("pelota"); articulos.push("canasta"); document.write("<p>Añadimos el artículo <strong>" + articulos[0] + "</strong></p>"); 
+        document.write("<p>El primer articulo ahora es <strong>" + articulos[0] + "</strong></p>"); 
+        document.write("<p>El último articulo ahora es <strong>" + articulos[articulos.length - 1] + "</strong></p>"); 
+        document.write("<P>La longitud del array ahora es " + articulos.length + "</p>"); 
+        document.write(articulos); articulos.push(prompt("introduce nuevo articulo")); document.write("<br>"); document.write(articulos); 
+        </script>
+    
+</body>
+</html>
